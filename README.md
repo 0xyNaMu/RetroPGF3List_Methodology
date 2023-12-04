@@ -53,5 +53,34 @@ Python script under "Optimism translators" doc
 | Subjective criteria | Sustainability focused | - Their current grant for the worked time is locked for a year, suggest adding and additional half through RetroPGF so they can use it.<br> - Measurement of hard data and indicators that will help them improve them program in the long run has been done for this round |  | $13,400 |
 | **Total to be rewarded** |  |  |  | **$39,910** |
 
+Rounded up to the closest 1k when allocating. 
 
 Data and calculations can be found here: [Application Data](https://docs.google.com/spreadsheets/d/1-4y-1KAjFUF602Oi7ty40BCRHJRLpNj_0NNIbNT9gP0/edit?usp=sharing) and here: [Ticket data](https://docs.google.com/spreadsheets/d/18Wt5X_CM8BXC7UM7Cw8sCcZ789K6zeOWjIZvSPWf0eM/edit#gid=1570985542)
+
+
+## SupNERDs
+
+Data sources here: [Application Data](https://docs.google.com/spreadsheets/d/1JfERz7nMpVnl0J8Ea-pqD6gmXe4CZlH7u7PTGEzqPGA/edit#gid=1131397769)
+
+Step 1. Calculate number of hours worked and reward just based on number of hours. 
+1. **Total Number of Messages Sent**: 47,088 messages.
+2. **Average Messages Sent per Hour**: 18 messages/hour (based on industry standards).
+
+Total Hours Worked = Total Number of Messages / Average Messages Sent per Hour
+                   = 47,088 messages / 18 messages/hour
+                   ≈ 2616 hours.
+
+Now, multiplying this by 22:
+2616 hours × 22 ≈ 57,552 USD. Turning into OP on a 1.3 valuation = $44,270.77
+
+| **No.**   | **Criteria**                                    | **Measurement**                                                 | **Rating Levels**                                                                                                                                                                                                                     | **Project Evaluation**                                            | **Amount Awarded** |
+|-----------|-------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------|
+| 1         | Support and Safety in the Discovery Journey     | Number of resolved support queries, time taken to resolve queries | High: High resolution rate with quick response times. Medium: Moderate resolution rate with average response times. Low: Low resolution rate, slow response times.              | **High:** 94% of 1819 support queries closed.                      | $15,000           |
+| 2         | User Experience                                 | Average user support rating, frequency and quality of user feedback | High: High average user support rating, frequent positive feedback. Medium: Moderate ratings and mixed feedback. Low: Low ratings, negative feedback.                        | **High:** Average user rating of 4.5; outstanding feedback.        | $20,000           |
+| 3         | Adoption and Participation                      | Active user engagement metrics, participation rates in community events or forums | High: Strong active user engagement, high participation in events/forums. Medium: Moderate user engagement, average participation. Low: Low user engagement, minimal participation. | **Medium:** 10 out of 40 participants actively engaged.             | $10,000           |
+| 4         | Accessibility and Language Support              | Availability and quality of multilingual support services, user feedback on effectiveness of language support, turnaround time for multilingual support requests | High: Wide availability and high quality of multilingual support services, excellent user feedback, quick turnaround for support requests. Medium: Moderate availability and quality of support services, mixed user feedback, average turnaround time. Low: Limited availability and poor quality of support services, negative user feedback, slow turnaround time. | **High:** Extensive range of languages supported, indicating strong emphasis on multilingual accessibility. | $30,000           |
+| **Total Amount Based on Criteria** |                     |                                                                 |                                                                                                                                                                              |                                                                    | **$75,000**         |
+| **Worked Hours** |              |                                                                 |                                                                                                                                                                              |                                                                    | $44,270.77         |
+| **Grand Total**  |                                             |                                                                 |                                                                                                                                                                              |                                                                    | **$119,270.77**    |
+
+Round up to the closest 1K when allocating. 
