@@ -1,0 +1,43 @@
+import pandas as pd
+
+# Re-creating the data
+data = {
+    "Language": [
+        "Arabic", "Bahasa Indonesia", "Chinese", "Czech", "Dutch", "Filipino", 
+        "French", "German", "Hindi", "Indonesian", "Japanese", "Korean", 
+        "Persian", "Polish", "Romanian", "Russian", "Russian/Ukrainian", 
+        "Spanish", "Thai", "Turkish", "Ukrainian", "Vietnamese"
+    ],
+    "Total Words": [
+        5820, 8730, 42680, 9700, 8730, 10670, 10670, 21340, 2910, 112520, 
+        50440, 85360, 11640, 15520, 970, 36860, 8730, 14550, 43650, 8730, 
+        970, 30070
+    ],
+    "Rarity Level": [
+        1, 3, 1, 4, 2, 4, 1, 1, 4, 3, 2, 2, 3, 2, 4, 1, 4, 1, 3, 3, 4, 3
+    ],
+    "Speaker Population Group": [
+        2, 3, 1, 5, 4, 4, 2, 3, 2, 3, 3, 3, 4, 4, 5, 3, 4, 2, 4, 4, 5, 4
+    ]
+}
+
+# Creating a DataFrame
+df = pd.DataFrame(data)
+
+# Function to calculate the new adjusted word count
+def calculate_new_adjusted_words(total_words, rarity_level, speaker_group):
+    # First step: multiply the total words by 0.20
+    initial_adjustment = total_words * 0.20
+
+    # Increase by 1% for each increase in rarity level
+    rarity_adjustment = initial_adjustment * (1 + 0.01 * rarity_level)
+
+    # Increase again by 2% for each decrease in speaker population group (5 - group)
+    final_adjustment = rarity_adjustment * (1 + 0.02 * (5 - speaker_group))
+
+    return final_adjustment
+
+# Applying the new calculation to each language
+df['New Adjusted Total Words'] = df.apply(lambda row: calculate_new_adjusted_words(row['Total Words'], row['Rarity Level'], row['Speaker Population Group']), axis=1)
+
+df.sort_values(by='Language')
